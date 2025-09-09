@@ -3,7 +3,7 @@ title: 视觉组第零次培训-Robomaster视觉组
 published: 2025-09-09
 tags: [Markdown, Blogging]
 category: 视觉组
-draft: true
+draft: false
 ---
 
 # Robomaster视觉组介绍
