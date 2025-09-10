@@ -1,6 +1,6 @@
 ---
-title: CMake
-published: 2025-09-09
+title: 视觉组培训：三阶段-CMake
+published: 2025-09-04
 tags: [Markdown, Blogging]
 category: 视觉组
 draft: false
@@ -9,7 +9,7 @@ draft: false
 # CMake
 ## 1. cmake是什么
     CMake是一个开源、跨平台的构建系统生成器。它使用一种相对独立于编译器的配置文件（CMakeLists.txt）来管理整个软件构建过程。
-
+    
     啥意思呢？简单来说就类似于一个清单，他告诉编译器头文件都在哪些地方，如果没有他，每一次编译我们都要用命令去告诉编译器头文件A在a目录下，头文件B在b目录下，这样就很麻烦，但有了cmake之后只需要将这些头文件的地址统一写在cmakelists文件里便可以完成上述操作，简单高效且不同平台都可使用。
 
 没有cmake时：编译一个c++程序需要输入的命令：
@@ -25,7 +25,7 @@ g++ -I./include
     -lopencv_highgui 
     -lboost_system \
     -o my_app
-```   
+```
     项目越大，命令越长，没人记得住，且无法跨平台使用，其在Windows上完全不能用，换台 Linux 机器路径可能又不一样。于是乎，cmake应运而生。
 ## 2. cmake的写法
 我们有了cmake，便会将头文件等声明写在CMakeLists.txt文件中。camke根据不同的需求会加入不同的命令，但构建cmake所必须的语法有以下四个：
