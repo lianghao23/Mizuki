@@ -1,7 +1,7 @@
 ---
 title: 视觉组培训：三阶段-CMake
 published: 2025-09-04
-tags: [Markdown, Blogging]
+tags: [Cmake]
 category: 视觉组
 draft: false
 ---

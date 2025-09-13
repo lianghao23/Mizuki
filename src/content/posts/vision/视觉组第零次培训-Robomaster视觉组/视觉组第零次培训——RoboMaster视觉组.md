@@ -1,7 +1,7 @@
 ---
 title: 视觉组培训：零阶段-Robomaster视觉组
 published: 2025-09-01
-tags: [Markdown, Blogging]
+tags: [vision]
 category: 视觉组
 draft: false
 ---

@@ -1,7 +1,7 @@
 ---
 title: 视觉组培训：三阶段-ROS2
 published: 2025-09-04
-tags: [Markdown, Ros2]
+tags: [ROS2]
 category: 视觉组
 draft: true
 ---
