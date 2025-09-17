@@ -3,7 +3,7 @@ title: 视觉组培训：二阶段-Git基础命令
 published: 2025-09-03
 tags: [Git]
 category: 视觉组
-draft: true
+draft: false
 ---
 
 # git相关
